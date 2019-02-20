@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_navigation">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/fragment_moneys">
 
+    <fragment
+        android:id="@+id/fragment_moneys"
+        android:name="com.henry.goldenbox.ui.moneys.MoneysFragment"
+        android:label="Money"
+        tools:layout="@layout/moneys_fragment" />
+    <fragment
+        android:id="@+id/fragment_add_money"
+        android:name="com.henry.goldenbox.ui.addmoney.AddMoneyFragment"
+        android:label="Save Money"
+        tools:layout="@layout/add_money_fragment" />
+    <fragment
+        android:id="@+id/fragment_profile"
+        android:name="com.henry.goldenbox.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/profile_fragment" />
 </navigation>

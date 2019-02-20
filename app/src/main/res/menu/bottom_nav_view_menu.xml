@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/item_moneys"
-        android:title="Moneys"
+        android:id="@+id/fragment_moneys"
+        android:title="Money"
         app:showAsAction="always"
-        android:icon="@android:drawable/ic_input_get" />
+        android:icon="@drawable/ic_attach_money" />
 
     <item
-        android:id="@+id/item_profile"
+        android:id="@+id/fragment_profile"
         android:title="Profile"
         app:showAsAction="always"
-        android:icon="@android:drawable/ic_input_get" />
+        android:icon="@drawable/ic_person_outline" />
 
 </menu>
