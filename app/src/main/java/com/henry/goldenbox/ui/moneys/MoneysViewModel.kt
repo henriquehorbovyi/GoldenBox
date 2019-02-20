@@ -1,4 +1,4 @@
-package com.henry.presenter.moneys
+package com.henry.goldenbox.ui.moneys
 
 import androidx.lifecycle.ViewModel
 

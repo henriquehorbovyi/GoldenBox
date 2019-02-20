@@ -30,8 +30,6 @@ dependencies {
 
     /* Modules */
     implementation(project(":data"))
-    implementation(project(":presenter"))
-    implementation(project(":internal"))
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"

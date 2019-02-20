@@ -1,4 +1,4 @@
-package com.henry.presenter.profile
+package com.henry.goldenbox.ui.profile
 
 import androidx.lifecycle.ViewModel
 

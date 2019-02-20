@@ -1,1 +1,1 @@
-include ':app', ':data', ':presenter', ':internal'
+include ':app', ':data'

@@ -9,7 +9,10 @@
         android:id="@+id/fragment_moneys"
         android:name="com.henry.goldenbox.ui.moneys.MoneysFragment"
         android:label="Money"
-        tools:layout="@layout/moneys_fragment" />
+        tools:layout="@layout/moneys_fragment" >
+        <action android:id="@+id/actionMoneysToAddMoney"
+                app:destination="@id/fragment_add_money"/>
+    </fragment>
     <fragment
         android:id="@+id/fragment_add_money"
         android:name="com.henry.goldenbox.ui.addmoney.AddMoneyFragment"
